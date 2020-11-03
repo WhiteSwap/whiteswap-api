@@ -1,0 +1,15 @@
+{
+  "name": "WhiteSwap",
+  "schemaPath": "schema.graphql",
+  "extensions": {
+    "endpoints": {
+      "WhiteSwap": {
+        "url": "https://api.thegraph.com/subgraphs/name/whiteswapfi/whiteswap",
+        "headers": {
+          "user-agent": "JS GraphQL"
+        },
+        "introspect": false
+      }
+    }
+  }
+}
