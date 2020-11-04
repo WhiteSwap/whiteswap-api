@@ -1,15 +1,15 @@
-# Uniswap API
+# WhiteSwap API
 
-The Uniswap API is a set of **authenticated** endpoints used by market aggregators (e.g. coinmarketcap.com) to surface 
-Uniswap liquidity and volume information. All information is fetched from the underlying subgraphs.
+The WhiteSwap API is a set of **authenticated** endpoints used by market aggregators (e.g. coinmarketcap.com) to surface 
+WhiteSwap liquidity and volume information. All information is fetched from the underlying subgraphs.
 
 The API is designed around the CoinMarketCap
 [requirements document](https://docs.google.com/document/d/1S4urpzUnO2t7DmS_1dc4EL4tgnnbTObPYXvDeBnukCg).
 
-Prefer the Uniswap subgraph for any Uniswap queries whenever possible. The respective subgraphs will always have more
+Prefer the WhiteSwap subgraph for any WhiteSwap queries whenever possible. The respective subgraphs will always have more
 recent data.
 
-V2 Subgraph: https://github.com/Uniswap/uniswap-v2-subgraph
+V2 Subgraph: https://github.com/WhiteSwap/uniswap-v2-subgraph
 
 V1 Subgraph: https://github.com/graphprotocol/uniswap-subgraph
 
@@ -22,13 +22,13 @@ Please fill out [this form](https://forms.gle/4xucinVsTTPu71bT6) if you would li
 You can use an API key by setting it in the `x-api-key` header, like so:
 
 ```sh
-curl -v --compressed https://api.uniswap.info/v2/tickers -H 'x-api-key: abcd1234'
+curl -v --compressed https://api.ws.exchange/v2/tickers -H 'x-api-key: abcd1234'
 ```
 
 ## Segregated data
 
 Note the data returned by the V1 and V2 endpoints is segregated, i.e. there are no endpoints for combined data from 
-both Uniswap V1 and V2.
+both WhiteSwap V1 and V2.
 
 ## V1 Documentation
 

@@ -4,7 +4,7 @@
   "extensions": {
     "endpoints": {
       "Ethereum Blocks": {
-        "url": "https://api.thegraph.com/subgraphs/name/blocklytics/ethereum-blocks",
+        "url": "https://api.thegraph.com/subgraphs/name/blocklytics/rinkeby-blocks",
         "headers": {
           "user-agent": "JS GraphQL"
         },

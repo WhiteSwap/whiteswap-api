@@ -41,6 +41,7 @@
     "check:format": "yarn format:base --check",
     "check:all": "yarn check:lint && yarn check:format",
     "generate": "graphql-codegen --config src/v1/apollo/codegen.yml",
-    "build": "sls package"
+    "build": "sls package",
+    "tt": "serverless invoke local --function v1-assets -p serverless.yml"
   }
 }
