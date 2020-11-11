@@ -9,13 +9,11 @@ The API is designed around the CoinMarketCap
 Prefer the WhiteSwap subgraph for any WhiteSwap queries whenever possible. The respective subgraphs will always have more
 recent data.
 
-V2 Subgraph: https://github.com/WhiteSwap/uniswap-v2-subgraph
-
-V1 Subgraph: https://github.com/graphprotocol/uniswap-subgraph
+V1 Subgraph: https://github.com/WhiteSwap/whiteswap-subgraph
 
 ## Getting an API Key
 
-Please fill out [this form](https://forms.gle/4xucinVsTTPu71bT6) if you would like to get an API key.
+We do not porvide an API key for custom users by now.
 
 ## Using an API Key
 
@@ -33,10 +31,6 @@ both WhiteSwap V1 and V2.
 ## V1 Documentation
 
 The documentation of the `/v1/` endpoints is [here](./v1.md).
-
-## V2 Documentation
-
-The documentation of the `/v2/` endpoints is [here](./v2.md).
 
 ## Deploying the API
 
